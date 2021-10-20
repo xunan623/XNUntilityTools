@@ -1,0 +1,16 @@
+PODS:
+  - XNUntilityTools (0.1.0)
+
+DEPENDENCIES:
+  - XNUntilityTools (from `../`)
+
+EXTERNAL SOURCES:
+  XNUntilityTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XNUntilityTools: b8d10a1203fa886c5a89df1157a108f3d99984ba
+
+PODFILE CHECKSUM: 65c0acc7835d6b4ee7d4fbc90749e1e5a185f8db
+
+COCOAPODS: 1.10.1

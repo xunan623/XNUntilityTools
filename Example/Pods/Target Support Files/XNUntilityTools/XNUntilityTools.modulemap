@@ -1,0 +1,6 @@
+framework module XNUntilityTools {
+  umbrella header "XNUntilityTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

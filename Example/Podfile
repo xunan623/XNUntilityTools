@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'XNUntilityTools_Example' do
+  pod 'XNUntilityTools', :path => '../'
+
+  target 'XNUntilityTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
