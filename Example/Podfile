@@ -1,0 +1,16 @@
+source 'git@github.com:xunan623/xnspecs.git'
+
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'XNUntilityTools_Example' do
+#  pod 'XNUntilityTools', :path => '../'
+  pod 'XNUntilityTools', '0.1.0'
+
+  target 'XNUntilityTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

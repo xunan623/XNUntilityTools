@@ -1,0 +1,16 @@
+PODS:
+  - XNUntilityTools (0.1.0)
+
+DEPENDENCIES:
+  - XNUntilityTools (= 0.1.0)
+
+SPEC REPOS:
+  "git@github.com:xunan623/xnspecs.git":
+    - XNUntilityTools
+
+SPEC CHECKSUMS:
+  XNUntilityTools: 4bb040528b3fd7524751822024f441dce4e4df6e
+
+PODFILE CHECKSUM: 545f010972709adf958f0ed537b888b0f13f4e28
+
+COCOAPODS: 1.10.1
