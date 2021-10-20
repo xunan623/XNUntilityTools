@@ -1,9 +1,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XNUntilityTools'
-  s.version          = '0.1.0'
+  s.version          = '1.0.1.3'
   s.summary          = '平时常用工具'
-  s.swift_version    = '5.0'
+
 
   s.description      = '平时常用工具类'
 
