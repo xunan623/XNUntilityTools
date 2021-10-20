@@ -2,15 +2,15 @@ PODS:
   - XNUntilityTools (0.1.0)
 
 DEPENDENCIES:
-  - XNUntilityTools (from `../`)
+  - XNUntilityTools (= 0.1.0)
 
-EXTERNAL SOURCES:
-  XNUntilityTools:
-    :path: "../"
+SPEC REPOS:
+  "git@github.com:xunan623/xnspecs.git":
+    - XNUntilityTools
 
 SPEC CHECKSUMS:
-  XNUntilityTools: b8d10a1203fa886c5a89df1157a108f3d99984ba
+  XNUntilityTools: 4bb040528b3fd7524751822024f441dce4e4df6e
 
-PODFILE CHECKSUM: 65c0acc7835d6b4ee7d4fbc90749e1e5a185f8db
+PODFILE CHECKSUM: 545f010972709adf958f0ed537b888b0f13f4e28
 
 COCOAPODS: 1.10.1

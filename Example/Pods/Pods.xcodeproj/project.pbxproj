@@ -9,61 +9,70 @@
 /* Begin PBXBuildFile section */
 		1D92523A6F82A11096A9B344ABB62127 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		1F61EF2056636A1A0D853DBA02E35AC5 /* Pods-XNUntilityTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1014E299E14D65DF0CC8DD2D00379446 /* Pods-XNUntilityTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30E5EA056C6098F12BE978C78C4716E1 /* XNUntilityTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E7772886FD3312A63EF9FE4D0AE93B8 /* XNUntilityTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		312CA5836CDCD47347F30FBD8D34CEB0 /* Pods-XNUntilityTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4807CD5A14F993A22996E4CFF8348D /* Pods-XNUntilityTools_Example-dummy.m */; };
+		378A591D80F3944159F4DE5171D0AE84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		797B337BB6ADC4ECC832B2E51177496A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7E4E9C75227EDB8F3528772964DE8AE0 /* XNUntilityTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E3AFF66485CFC2016BAD518221D1CAB9 /* XNUntilityTools.bundle */; };
+		801372B620DF1EB2866EE72691FA0D05 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA5BC5256880A0061B7CDF6AB90863 /* ReplaceMe.swift */; };
 		80426540B6ACFF71ABC8C0E4CD55E4C2 /* Pods-XNUntilityTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E230EC2B71007B4A42547778E13FCFE /* Pods-XNUntilityTools_Tests-dummy.m */; };
-		88B182D78656F71E4FA5F03476054338 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9328C6D5398B76957CD8C3A00BE8F5C7 /* XNUntilityTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BD7E011176E065146BBFE28084DAFE /* XNUntilityTools-dummy.m */; };
-		B9A51C4F37F2D0C4D8B3EE0BC519E454 /* XNUntilityTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA7D798F11F21D9A11405E9FDAB6AEE /* XNUntilityTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FF7DF92ED1FA641B23C652416E22D8D /* XNUntilityTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2247445B04F8AFF82B27FEFF3391C077 /* XNUntilityTools-dummy.m */; };
+		B5DFA5FF2B92202FF0299ADFB66FC60C /* XNUntilityToolsIcons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C88589C1F4E97225A58738F2A942E4 /* XNUntilityToolsIcons.xcassets */; };
 		FA570604AE1A5E787A086AB8B6BEF384 /* Pods-XNUntilityTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E42C0F5ADB8B94074AE9F7B264CAFB /* Pods-XNUntilityTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC72C99E9C13C5B5E85339C366999A22 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA27E41C295503F8876824D9522651 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		36FB5B37ECFCCBFD0BA8B8ACF26A98D2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A48AC0C9CE45F71F04C19D12F53C12D6;
-			remoteInfo = "Pods-XNUntilityTools_Example";
-		};
-		E53DDB7E9C3C80C14BEF19C3450C53BD /* PBXContainerItemProxy */ = {
+		9249C13C1011CE0B9FA3DB6D14AC9A64 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0A34B7EEFD47F50BB4DA312A92874746;
 			remoteInfo = XNUntilityTools;
 		};
+		B9D763BFA6BD1C510E56E64684C132D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A48AC0C9CE45F71F04C19D12F53C12D6;
+			remoteInfo = "Pods-XNUntilityTools_Example";
+		};
+		FC39DD509405B223DF4DB62A5A0ECFEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0DAB6E83605EC24492915DDBA693A07;
+			remoteInfo = "XNUntilityTools-XNUntilityTools";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07BD7E011176E065146BBFE28084DAFE /* XNUntilityTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XNUntilityTools-dummy.m"; sourceTree = "<group>"; };
+		06B5A0CC6C4AFB8062444ECB47F9600E /* ResourceBundle-XNUntilityTools-XNUntilityTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XNUntilityTools-XNUntilityTools-Info.plist"; sourceTree = "<group>"; };
+		07FA5BC5256880A0061B7CDF6AB90863 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = XNUntilityTools/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		1014E299E14D65DF0CC8DD2D00379446 /* Pods-XNUntilityTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XNUntilityTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		107CB3B4DF7BCFC15CB004B3666FF355 /* Pods-XNUntilityTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XNUntilityTools_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1E230EC2B71007B4A42547778E13FCFE /* Pods-XNUntilityTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XNUntilityTools_Tests-dummy.m"; sourceTree = "<group>"; };
+		2247445B04F8AFF82B27FEFF3391C077 /* XNUntilityTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XNUntilityTools-dummy.m"; sourceTree = "<group>"; };
 		260AAB6381EAA1828B8A4C6EB580964B /* Pods-XNUntilityTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XNUntilityTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		298A450EE2387F8DEB29B4E1CC2EE36A /* XNUntilityTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XNUntilityTools-prefix.pch"; sourceTree = "<group>"; };
 		2D4807CD5A14F993A22996E4CFF8348D /* Pods-XNUntilityTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XNUntilityTools_Example-dummy.m"; sourceTree = "<group>"; };
-		2DCC3941BAC8F6E08E09A9A8C895A5D7 /* XNUntilityTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XNUntilityTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		367811AAD5FF60F7CBCB72AE5C3F598D /* XNUntilityTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XNUntilityTools.modulemap; sourceTree = "<group>"; };
 		396AECE4C6B642D6D0B568CD2955969A /* XNUntilityTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XNUntilityTools.framework; path = XNUntilityTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		40B35494C46BEA32144F87EDE98E2A66 /* XNUntilityTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XNUntilityTools-Info.plist"; sourceTree = "<group>"; };
 		48C5299EDEEC82B9230A8B230494F4E1 /* Pods-XNUntilityTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XNUntilityTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4B453414DA90545C31067FD25E625CCD /* XNUntilityTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XNUntilityTools.debug.xcconfig; sourceTree = "<group>"; };
 		5465B7DE862BE9A9F14BC12EBC1E205A /* Pods-XNUntilityTools_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XNUntilityTools_Example-Info.plist"; sourceTree = "<group>"; };
+		584D8D5EBA4487A45A24E2785CBBFF74 /* XNUntilityTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XNUntilityTools-prefix.pch"; sourceTree = "<group>"; };
 		588A9524122FD3E33CB99E13B9B2DAB7 /* Pods_XNUntilityTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XNUntilityTools_Tests.framework; path = "Pods-XNUntilityTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		58AA27E41C295503F8876824D9522651 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = XNUntilityTools/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		6B74E48B5DE493EB85BBFC6AFEE5535D /* XNUntilityTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XNUntilityTools.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8AA7D798F11F21D9A11405E9FDAB6AEE /* XNUntilityTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XNUntilityTools-umbrella.h"; sourceTree = "<group>"; };
+		7A93261DCAC5432866A956CCC3B98C57 /* XNUntilityTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XNUntilityTools.release.xcconfig; sourceTree = "<group>"; };
+		7E7772886FD3312A63EF9FE4D0AE93B8 /* XNUntilityTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XNUntilityTools-umbrella.h"; sourceTree = "<group>"; };
+		87A5254C4254E85B7B1AF03335C2158B /* XNUntilityTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XNUntilityTools-Info.plist"; sourceTree = "<group>"; };
 		8D9E81704E169770B5911B8D0D025D3B /* Pods-XNUntilityTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XNUntilityTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		95C88589C1F4E97225A58738F2A942E4 /* XNUntilityToolsIcons.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = XNUntilityToolsIcons.xcassets; path = XNUntilityTools/Assets/XNUntilityToolsIcons.xcassets; sourceTree = "<group>"; };
 		998A5FA2FA569466B4B4CDC14FA7DE38 /* Pods-XNUntilityTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XNUntilityTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B533DAE14BBC3A9C766161FF43D062EF /* XNUntilityTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XNUntilityTools.release.xcconfig; sourceTree = "<group>"; };
 		BE10FA72823F13B767C6635284ECDDC2 /* Pods-XNUntilityTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XNUntilityTools_Example.modulemap"; sourceTree = "<group>"; };
 		D9E42C0F5ADB8B94074AE9F7B264CAFB /* Pods-XNUntilityTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XNUntilityTools_Example-umbrella.h"; sourceTree = "<group>"; };
-		DF4C42CDD382A9E40DA56762D7D4C72B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DA976E2EC7D0C3965272708FB5A700FB /* XNUntilityTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XNUntilityTools.debug.xcconfig; sourceTree = "<group>"; };
 		DFEBBCC5141E877B1666D5225E3F6E97 /* Pods-XNUntilityTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XNUntilityTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E4EEC0D67512014392948F6EDC243401 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E3AFF66485CFC2016BAD518221D1CAB9 /* XNUntilityTools.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XNUntilityTools.bundle; path = "XNUntilityTools-XNUntilityTools.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6982A0215A020B19C5AA0CABFCDEFA4 /* Pods-XNUntilityTools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XNUntilityTools_Tests-Info.plist"; sourceTree = "<group>"; };
 		F0D260791CFF1356BF781625B53081BB /* Pods-XNUntilityTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XNUntilityTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F58844A880AD831F364BC612F2452C47 /* Pods-XNUntilityTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XNUntilityTools_Tests.modulemap"; sourceTree = "<group>"; };
@@ -89,41 +98,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDC792648CE95DBEF6D02E6C397C3EA8 /* Frameworks */ = {
+		EA598AF2FFCD6388A6B57961D5811228 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88B182D78656F71E4FA5F03476054338 /* Foundation.framework in Frameworks */,
+				378A591D80F3944159F4DE5171D0AE84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B800BA4D2AA8426C5F6CE17FF13F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		27C2FEE7D240193A2FE675C4C85B2BC8 /* XNUntilityTools */ = {
+		0E9648F63700802770F32FAD427562E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				58AA27E41C295503F8876824D9522651 /* ReplaceMe.swift */,
-				B57B2484ECAF0F362CB034EB4817AEB4 /* Pod */,
-				47A98FB9B7F427591C5882E378B6C0FC /* Support Files */,
+				FCD31E9434B81A771555B4797B3E8997 /* Pods_XNUntilityTools_Example.framework */,
+				588A9524122FD3E33CB99E13B9B2DAB7 /* Pods_XNUntilityTools_Tests.framework */,
+				E3AFF66485CFC2016BAD518221D1CAB9 /* XNUntilityTools.bundle */,
+				396AECE4C6B642D6D0B568CD2955969A /* XNUntilityTools.framework */,
 			);
-			name = XNUntilityTools;
-			path = ../..;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		47A98FB9B7F427591C5882E378B6C0FC /* Support Files */ = {
+		2BDACF99A2CB1302CB96E7F1F9944B97 /* XNUntilityTools */ = {
 			isa = PBXGroup;
 			children = (
-				6B74E48B5DE493EB85BBFC6AFEE5535D /* XNUntilityTools.modulemap */,
-				07BD7E011176E065146BBFE28084DAFE /* XNUntilityTools-dummy.m */,
-				40B35494C46BEA32144F87EDE98E2A66 /* XNUntilityTools-Info.plist */,
-				298A450EE2387F8DEB29B4E1CC2EE36A /* XNUntilityTools-prefix.pch */,
-				8AA7D798F11F21D9A11405E9FDAB6AEE /* XNUntilityTools-umbrella.h */,
-				4B453414DA90545C31067FD25E625CCD /* XNUntilityTools.debug.xcconfig */,
-				B533DAE14BBC3A9C766161FF43D062EF /* XNUntilityTools.release.xcconfig */,
+				07FA5BC5256880A0061B7CDF6AB90863 /* ReplaceMe.swift */,
+				9973BD3F397A861E03EBD15AC40CE910 /* Resources */,
+				EBC7DDB7FAD2734D99D0CFCA15EF575E /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XNUntilityTools";
+			name = XNUntilityTools;
+			path = XNUntilityTools;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -134,12 +146,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		67000B755D4CD5DA7B23F59ED61835A3 /* Development Pods */ = {
+		731D4AD7E46FBDE0BF93F99D6880B13D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				27C2FEE7D240193A2FE675C4C85B2BC8 /* XNUntilityTools */,
+				2BDACF99A2CB1302CB96E7F1F9944B97 /* XNUntilityTools */,
 			);
-			name = "Development Pods";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		95EDB3611C501165061737486BEFC32D /* Pods-XNUntilityTools_Example */ = {
@@ -159,6 +171,14 @@
 			path = "Target Support Files/Pods-XNUntilityTools_Example";
 			sourceTree = "<group>";
 		};
+		9973BD3F397A861E03EBD15AC40CE910 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95C88589C1F4E97225A58738F2A942E4 /* XNUntilityToolsIcons.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		AF29A52DE15292596A1F7EA016AE5E22 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,23 +188,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B57B2484ECAF0F362CB034EB4817AEB4 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				DF4C42CDD382A9E40DA56762D7D4C72B /* LICENSE */,
-				E4EEC0D67512014392948F6EDC243401 /* README.md */,
-				2DCC3941BAC8F6E08E09A9A8C895A5D7 /* XNUntilityTools.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				67000B755D4CD5DA7B23F59ED61835A3 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				DE514C0E37EF42D993B0777ECE9FF7DC /* Products */,
+				731D4AD7E46FBDE0BF93F99D6880B13D /* Pods */,
+				0E9648F63700802770F32FAD427562E6 /* Products */,
 				AF29A52DE15292596A1F7EA016AE5E22 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -195,16 +205,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DE514C0E37EF42D993B0777ECE9FF7DC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FCD31E9434B81A771555B4797B3E8997 /* Pods_XNUntilityTools_Example.framework */,
-				588A9524122FD3E33CB99E13B9B2DAB7 /* Pods_XNUntilityTools_Tests.framework */,
-				396AECE4C6B642D6D0B568CD2955969A /* XNUntilityTools.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		E4AD91B46E7C8BE58B62425E3E54522D /* Pods-XNUntilityTools_Tests */ = {
@@ -223,6 +223,22 @@
 			path = "Target Support Files/Pods-XNUntilityTools_Tests";
 			sourceTree = "<group>";
 		};
+		EBC7DDB7FAD2734D99D0CFCA15EF575E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06B5A0CC6C4AFB8062444ECB47F9600E /* ResourceBundle-XNUntilityTools-XNUntilityTools-Info.plist */,
+				367811AAD5FF60F7CBCB72AE5C3F598D /* XNUntilityTools.modulemap */,
+				2247445B04F8AFF82B27FEFF3391C077 /* XNUntilityTools-dummy.m */,
+				87A5254C4254E85B7B1AF03335C2158B /* XNUntilityTools-Info.plist */,
+				584D8D5EBA4487A45A24E2785CBBFF74 /* XNUntilityTools-prefix.pch */,
+				7E7772886FD3312A63EF9FE4D0AE93B8 /* XNUntilityTools-umbrella.h */,
+				DA976E2EC7D0C3965272708FB5A700FB /* XNUntilityTools.debug.xcconfig */,
+				7A93261DCAC5432866A956CCC3B98C57 /* XNUntilityTools.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XNUntilityTools";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -234,14 +250,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87CE3513852104C4CE43FE8AF17239B3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B9A51C4F37F2D0C4D8B3EE0BC519E454 /* XNUntilityTools-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		938DB6D0CAB2D3684E144E97F0B71667 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -250,21 +258,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		992F41C3500F6870CC2DC6F2EF9DCF22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E5EA056C6098F12BE978C78C4716E1 /* XNUntilityTools-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0A34B7EEFD47F50BB4DA312A92874746 /* XNUntilityTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 985FCC0A2E7F114756726018911E1FF2 /* Build configuration list for PBXNativeTarget "XNUntilityTools" */;
+			buildConfigurationList = 47C5ED19C3C73F001486E9449E3016DF /* Build configuration list for PBXNativeTarget "XNUntilityTools" */;
 			buildPhases = (
-				87CE3513852104C4CE43FE8AF17239B3 /* Headers */,
-				481F2A8C8D9C5D1DA8630D2FCCB2F255 /* Sources */,
-				BDC792648CE95DBEF6D02E6C397C3EA8 /* Frameworks */,
-				04207AB6A16654807ADAB852F95B70A5 /* Resources */,
+				992F41C3500F6870CC2DC6F2EF9DCF22 /* Headers */,
+				4733A19AF1652264C6E29380CF36BAEB /* Sources */,
+				EA598AF2FFCD6388A6B57961D5811228 /* Frameworks */,
+				50DD0D878062F8C4C57853ED655CD48C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				837364C984378FC2DA16992CB724B3DD /* PBXTargetDependency */,
 			);
 			name = XNUntilityTools;
 			productName = XNUntilityTools;
@@ -283,7 +300,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C583444594A5D6F907187AE36988BADF /* PBXTargetDependency */,
+				46D2311BDA8E9A2F47EF110DAB254F79 /* PBXTargetDependency */,
 			);
 			name = "Pods-XNUntilityTools_Example";
 			productName = "Pods-XNUntilityTools_Example";
@@ -302,12 +319,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				B8E8ADB91E831FDBC36B13BE1E48B890 /* PBXTargetDependency */,
+				563F52B3FB30BE8CFA7C519238365ECE /* PBXTargetDependency */,
 			);
 			name = "Pods-XNUntilityTools_Tests";
 			productName = "Pods-XNUntilityTools_Tests";
 			productReference = 588A9524122FD3E33CB99E13B9B2DAB7 /* Pods_XNUntilityTools_Tests.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		F0DAB6E83605EC24492915DDBA693A07 /* XNUntilityTools-XNUntilityTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC51853B4C87274A1E9F9E3958A8A71 /* Build configuration list for PBXNativeTarget "XNUntilityTools-XNUntilityTools" */;
+			buildPhases = (
+				6902398BA7E9CE3D07DA0C3CBA506D42 /* Sources */,
+				F1B800BA4D2AA8426C5F6CE17FF13F64 /* Frameworks */,
+				54A5463A4A6CB0DF6D16CDB7EFA75700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XNUntilityTools-XNUntilityTools";
+			productName = "XNUntilityTools-XNUntilityTools";
+			productReference = E3AFF66485CFC2016BAD518221D1CAB9 /* XNUntilityTools.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -327,29 +361,39 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = DE514C0E37EF42D993B0777ECE9FF7DC /* Products */;
+			productRefGroup = 0E9648F63700802770F32FAD427562E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A48AC0C9CE45F71F04C19D12F53C12D6 /* Pods-XNUntilityTools_Example */,
 				BD2902FB7DD488FE559289996B91907A /* Pods-XNUntilityTools_Tests */,
 				0A34B7EEFD47F50BB4DA312A92874746 /* XNUntilityTools */,
+				F0DAB6E83605EC24492915DDBA693A07 /* XNUntilityTools-XNUntilityTools */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		04207AB6A16654807ADAB852F95B70A5 /* Resources */ = {
+		17AD84B7C44866BF9559120C9A7F1ECA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		17AD84B7C44866BF9559120C9A7F1ECA /* Resources */ = {
+		50DD0D878062F8C4C57853ED655CD48C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E4E9C75227EDB8F3528772964DE8AE0 /* XNUntilityTools.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A5463A4A6CB0DF6D16CDB7EFA75700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DFA5FF2B92202FF0299ADFB66FC60C /* XNUntilityToolsIcons.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,12 +407,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		481F2A8C8D9C5D1DA8630D2FCCB2F255 /* Sources */ = {
+		4733A19AF1652264C6E29380CF36BAEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC72C99E9C13C5B5E85339C366999A22 /* ReplaceMe.swift in Sources */,
-				9328C6D5398B76957CD8C3A00BE8F5C7 /* XNUntilityTools-dummy.m in Sources */,
+				801372B620DF1EB2866EE72691FA0D05 /* ReplaceMe.swift in Sources */,
+				8FF7DF92ED1FA641B23C652416E22D8D /* XNUntilityTools-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6902398BA7E9CE3D07DA0C3CBA506D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,17 +442,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B8E8ADB91E831FDBC36B13BE1E48B890 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-XNUntilityTools_Example";
-			target = A48AC0C9CE45F71F04C19D12F53C12D6 /* Pods-XNUntilityTools_Example */;
-			targetProxy = 36FB5B37ECFCCBFD0BA8B8ACF26A98D2 /* PBXContainerItemProxy */;
-		};
-		C583444594A5D6F907187AE36988BADF /* PBXTargetDependency */ = {
+		46D2311BDA8E9A2F47EF110DAB254F79 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XNUntilityTools;
 			target = 0A34B7EEFD47F50BB4DA312A92874746 /* XNUntilityTools */;
-			targetProxy = E53DDB7E9C3C80C14BEF19C3450C53BD /* PBXContainerItemProxy */;
+			targetProxy = 9249C13C1011CE0B9FA3DB6D14AC9A64 /* PBXContainerItemProxy */;
+		};
+		563F52B3FB30BE8CFA7C519238365ECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XNUntilityTools_Example";
+			target = A48AC0C9CE45F71F04C19D12F53C12D6 /* Pods-XNUntilityTools_Example */;
+			targetProxy = B9D763BFA6BD1C510E56E64684C132D9 /* PBXContainerItemProxy */;
+		};
+		837364C984378FC2DA16992CB724B3DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XNUntilityTools-XNUntilityTools";
+			target = F0DAB6E83605EC24492915DDBA693A07 /* XNUntilityTools-XNUntilityTools */;
+			targetProxy = FC39DD509405B223DF4DB62A5A0ECFEF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -437,6 +494,52 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		0F3D213BF6FCA440F82309371D703C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA976E2EC7D0C3965272708FB5A700FB /* XNUntilityTools.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XNUntilityTools/XNUntilityTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XNUntilityTools/XNUntilityTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XNUntilityTools/XNUntilityTools.modulemap";
+				PRODUCT_MODULE_NAME = XNUntilityTools;
+				PRODUCT_NAME = XNUntilityTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		14FEC089DDB7FE2CC44AF22A166B983C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A93261DCAC5432866A956CCC3B98C57 /* XNUntilityTools.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XNUntilityTools";
+				IBSC_MODULE = XNUntilityTools;
+				INFOPLIST_FILE = "Target Support Files/XNUntilityTools/ResourceBundle-XNUntilityTools-XNUntilityTools-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = XNUntilityTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -504,9 +607,9 @@
 			};
 			name = Debug;
 		};
-		26405E937705CDBD39DE82E26A671893 /* Debug */ = {
+		26A395689F32CDD233ADB457DA2BEEC4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B453414DA90545C31067FD25E625CCD /* XNUntilityTools.debug.xcconfig */;
+			baseConfigurationReference = 7A93261DCAC5432866A956CCC3B98C57 /* XNUntilityTools.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -529,10 +632,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		4A104F2C5D20E87142C55935F3237413 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -593,37 +697,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7DD51787B392882FB06C1788A672B84E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B533DAE14BBC3A9C766161FF43D062EF /* XNUntilityTools.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XNUntilityTools/XNUntilityTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XNUntilityTools/XNUntilityTools-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XNUntilityTools/XNUntilityTools.modulemap";
-				PRODUCT_MODULE_NAME = XNUntilityTools;
-				PRODUCT_NAME = XNUntilityTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -725,6 +798,22 @@
 			};
 			name = Release;
 		};
+		FBA069A8A30613F14E0F72C8907225ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA976E2EC7D0C3965272708FB5A700FB /* XNUntilityTools.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XNUntilityTools";
+				IBSC_MODULE = XNUntilityTools;
+				INFOPLIST_FILE = "Target Support Files/XNUntilityTools/ResourceBundle-XNUntilityTools-XNUntilityTools-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = XNUntilityTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -733,6 +822,15 @@
 			buildConfigurations = (
 				0B5DBD1A8CB4E221897275160186C7D4 /* Debug */,
 				7A57E84059A45E9BE1D3364828BDF38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47C5ED19C3C73F001486E9449E3016DF /* Build configuration list for PBXNativeTarget "XNUntilityTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3D213BF6FCA440F82309371D703C3B /* Debug */,
+				26A395689F32CDD233ADB457DA2BEEC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -746,11 +844,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		985FCC0A2E7F114756726018911E1FF2 /* Build configuration list for PBXNativeTarget "XNUntilityTools" */ = {
+		6DC51853B4C87274A1E9F9E3958A8A71 /* Build configuration list for PBXNativeTarget "XNUntilityTools-XNUntilityTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26405E937705CDBD39DE82E26A671893 /* Debug */,
-				7DD51787B392882FB06C1788A672B84E /* Release */,
+				FBA069A8A30613F14E0F72C8907225ED /* Debug */,
+				14FEC089DDB7FE2CC44AF22A166B983C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
